@@ -1,0 +1,2 @@
+DELETE FROM Participants;
+ALTER TABLE Participants AUTO_INCREMENT = 1;

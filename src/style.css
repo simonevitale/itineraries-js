@@ -1,0 +1,79 @@
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+	height: 500px;
+}
+
+#locationField {
+	margin: 20px;
+}
+#autocomplete {
+
+}
+#autocomplete input {
+
+}
+
+.route-box .row, .submit-box .row { margin-bottom: 10px; }
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	font-family: Arial, Helvetica;
+	margin-bottom: 15px;
+	font-weight: lighter;
+	font-size: 18pt;
+}
+
+h1 {
+	font-size: 20pt;
+	color: #0089cf;
+	text-align: center;
+}
+
+.left15 {
+	margin-left: 15px;
+}
+
+.right15 {
+	margin-right: 15px;
+}
+
+.route-box, .submit-box, .guide-box {
+	display: none;
+}
+
+body.all .guide-box,
+body.insert .route-box, body.insert .submit-box,
+body.edit .route-box, body.edit .submit-box {
+	display: block;
+}
+
+body.all #itineraryForm {
+	display: none;
+}
+
+body.all .map-container {
+	height: 100%;
+}
+.map-container img#logo {
+    position: absolute;
+	top: 70px;
+	left: 20px;
+	z-index:100;
+}
+
+@media only screen and (max-width: 500px) {
+	.map-container img#logo {
+		width: 100px;
+	}
+}
+
+.btn-group#transportation label {
+	margin-bottom: 5px; 
+}
